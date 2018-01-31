@@ -1,0 +1,7 @@
+a;kok dia gak peka sih
+a;gapapa
+require;talktob
+choice;plus=Hai, sepertinya temanmu disana ingin mengatakan sesuatau|min=Hai, sepertinya temanmu ingin segera pergi.
+rplus|a=Ya, terlihat dari tingkahnya. Dia ingin mengatakan sesuatu tapi mengurungkan niatnya;rmin|a=ya, dia kelihatan sudah tidak tahan lagi
+rplus|a=Benarkah? aku ingin dia tahu bahwa aku tidak ingin dia pergi aku akan kehilangan dia, Tetapi aku tidak bisa bilang, aku takut;rmin|a=Aku memang sering merepotkan dia tetapi aku tidak menyangka dia seperti ini
+set=talktoa;a=...

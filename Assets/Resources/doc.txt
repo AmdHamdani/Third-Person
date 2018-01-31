@@ -1,0 +1,5 @@
+chara ; text 					--> speak
+choice; plus = text | min = text		--> make choice
+rplus | chara = text ; rmin | chara = text	--> show text by condition
+set = value ; chara = text
+need = value ; chara = text

@@ -1,0 +1,15 @@
+start;Aduh, aku pingin ngomong
+b;Ah enggak cuma ada masalah aja
+k;Masalah Apa?
+b;Aku mau pergi, tapi aku merasa ada yang mengganjal
+k;Masalah tentang dia
+b;Iya, kok tau?
+choice;plus=Iya, soalnya keliatan dari muka kalian|min=Iya, keliatan dari mukamu
+rplus|b=Dia? Itu sahabatku, aku mau pergi tapi aku merasa aku harus mengatakan sesuatu, tapi aku tidak yakin;rmin|b=Ah terlihat ya
+k;emang kamu mau ngomong apa?
+b;Aku nyaman sama dia
+k;Yaudah ngomong aja
+b;Tidak semudah itu
+set=talktob;b=kamu tidak mengerti
+need=talktoa;choice?plus=Kamu perlu mengatakannya, aku yakin dia punya perassan yang sama|min=Nggak perlu repot-repot, dia kelihatannya tidak tertarik
+rplus|b=Oke, aku akan mencoba memberitahunya, wish me luck! thanks;rmin|b=B...Benarkah? Lebih baik aku langsung pergi saja kalau begitu
